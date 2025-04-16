@@ -36,8 +36,8 @@ table {
 
 
 th {
-    background-color: #007bff;
-    color: white;
+   
+    color: black;
     padding: 10px;
     border: 1px solid black;
 }
@@ -47,10 +47,5 @@ td {
     padding: 10px;
     border: 1px solid black;
     text-align: center;
-}
-
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
 }
 

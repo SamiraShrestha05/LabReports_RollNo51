@@ -6,17 +6,17 @@
 
 body {
     font-family: Arial, sans-serif;
+  
 }
 
-#header, #nav, #footer {
+#header, #nav, #footer, #left, #right, #main{
     text-align: center;
     padding: 15px;
-    color: white;
+    color:black;
 }
 
-#header { background: blue; }
-#nav { background: cadetblue; }
-#footer { background: brown; }
+#header { background: rgb(191, 66, 83); }
+#footer { background: rgb(56, 150, 238); }
 
 .container {
     display: flex;
@@ -27,13 +27,22 @@ body {
     text-align: center;
     padding: 20px;
     color: white;
-    min-height: 400px;
+    height: 565px;
 }
 
-#left { background: aquamarine; flex: 1; }
-#main { background: burlywood; flex: 3; }
+#left { background: rgb(233, 195, 3); flex: 1; }
+#main { background:white; flex: 3; }
+#right { background:rgb(13, 183, 13); flex: 1; }
 
 @media (max-width: 768px) {
+    .container { flex; }
+   #main{ flex-wrap: ;}
+    #left {flex:1; }
+    #right {flex:1; }
+    
+}
+
+@media (max-width: 412px) {
     .container { flex-direction: column; }
-    #left, #main { width: 100%; }
+    #main, #left, #right{ width: 100%; }
 }

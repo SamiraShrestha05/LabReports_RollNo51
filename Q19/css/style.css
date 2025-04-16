@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: url("../images/mountain.jpeg") no-repeat center fixed;
+    background: url("../images/sunset.webp") no-repeat center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -8,9 +8,11 @@ body {
 
 
 .container {
+    z-index:3;
     text-align: center;
     color: white;
-    padding-top: 50px;
+    padding-top: 30px;
+    opacity: 80%;
 }
 
 
@@ -37,7 +39,7 @@ h2 {
 }
 
 h3 {
-    color: #00ffcc;
+    color: rgb(31, 183, 244);
     font-size: 18px;
 }
 
@@ -45,12 +47,15 @@ h3 {
 input[type="text"], 
 input[type="email"], 
 input[type="password"] {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin: 8px 0;
     border: none;
     border-radius: 5px;
+    background-color: rgb(79, 79, 79);
 }
+input::placeholder {
+    color: #c9c9c9; }
 
 
 .gender {
@@ -70,7 +75,7 @@ input[type="password"] {
 .btn {
     width: 100%;
     padding: 10px;
-    background: #d4a017;
+    background: #b38204;
     color: white;
     border: none;
     cursor: pointer;
@@ -79,5 +84,5 @@ input[type="password"] {
 }
 
 .btn:hover {
-    background: #a87c10;
+    background: #edb322;
 }

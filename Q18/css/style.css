@@ -1,52 +1,53 @@
-* {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
-
 h1 {
     position: relative;
-    left: 353px;
-    margin: 20px 0;
+    left: 278px;
+    color: red;
 }
 
-fieldset {
-    width: 50%;
+fieldset{
+    width: 60%;
     margin: auto;
     padding: 20px;
-    border: 2px solid grey;
-    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid black;
 }
-
-fieldset legend {
-    font-size: 18px;
-    font-weight: bold;
+fieldset legend{
     text-align: center;
-    width: 100%; 
 }
 
+div.form-group{
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
 
 .form-group {
-    border-bottom: 1px solid rgb(21, 212, 46);
-    padding: 10px 0;
+    border: 1px solid rgb(186, 186, 186);
+    padding: 0px 0;
     margin-bottom: 10px;
 }
 
 .form-group label {
-    width: 120px;
+    width: 100px;
     display: inline-block;
-    font-weight: bold;
+}
+
+.form-group input[type=radio],input[type=checkbox]{
+    width: 5%;
 }
 
 .form-group input,
 .form-group select,
 .form-group textarea {
-    width: 60%;
+    width: 80%;
     padding: 5px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid orange;
 }
 
 .form-group input[type=radio],
@@ -54,42 +55,30 @@ fieldset legend {
     width: auto;
     margin-right: 5px;
 }
-
-.form-group textarea {
-    width: 100%;
-    resize: vertical;
-}
-
-.form-group input[type=submit], 
-.form-group input[type=reset] {
-    width: 120px; 
-    height: 40px;  
-    padding: 10px;
-    font-size: 46px; 
+.form-group input[type=file]{
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
-
-.success {
-    background-color: rgb(11, 110, 77);
+.form-group input[type=submit],input[type=reset]{
+    width: 70px;
+    border: none;
+    padding: 10px ;
     color: white;
 }
 
-.danger {
-    background-color: red;
-    color: white;
-}
-
-.success:hover {
-    background-color: darkgreen;
-}
-
-.danger:hover {
-    background-color: darkred;
-}
-
-.form-group input[type=submit]:last-child,
-.form-group input[type=reset]:last-child {
+.success{
     background-color: blue;
 }
+
+.danger{
+    background-color: rgb(208, 45, 23);   
+}
+
+.success:hover{
+    background-color: rgb(10, 121, 240);
+}
+.danger:hover{
+    background-color: rgb(255, 87, 57);
+}
+
+
+

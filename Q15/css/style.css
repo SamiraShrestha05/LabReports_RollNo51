@@ -1,6 +1,6 @@
 nav {
-    background-color: #f7f7b7; 
-    padding: 10px;
+    background-color: #fcf95e; 
+    padding: 5px;
 }
 
 ul {
@@ -17,19 +17,19 @@ li {
 
 a {
     text-decoration: none;
-    color: blue; 
+    color: rgb(84, 6, 129); 
     padding: 10px;
     font-weight: bold;
 }
 
 a:hover {
-    background-color: purple; 
+    background-color:rgb(102, 60, 209); 
     color: white; 
 }
 
 
 a.active {
-    background-color: purple;
+    background-color: rgb(102, 60, 209);
     color: white;
 }
 
